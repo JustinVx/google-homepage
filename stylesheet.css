@@ -56,7 +56,15 @@ html {
 
 .search-field input {
   width: 580px;
-  height: 42px;
+  height: 36px;
+}
+
+.search-field input:focus {
+  outline: 1px solid #33AAFF;
+}
+
+#search-field {
+  font-size: 15pt;
 }
 
 .search-buttons {
