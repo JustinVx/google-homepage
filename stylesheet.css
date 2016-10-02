@@ -89,3 +89,35 @@ html {
   border: 0.5px solid black;
   color: black;
 }
+
+.bottom-footer {
+  position: absolute;
+  bottom: 0;
+  height: 38px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.bottom-left-side-links {
+  position: absolute;
+  left: 1%;
+  padding: 10px;
+}
+
+.bottom-left-side-rechts {
+  position: absolute;
+  right: 1%;
+  padding: 10px;
+}
+
+.bottom-footer a {
+  font-size: 10pt;
+  color: #757575;
+  text-decoration: none;
+  margin: 0 15px 0 5px;
+  padding: 0;
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
+}
