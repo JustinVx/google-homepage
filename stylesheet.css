@@ -1,25 +1,44 @@
 .top-header {
   margin: auto;
-  background-color: none;
-  height: 60px;
+  height: 45px;
+  vertical-align: middle;
 }
 
 .top-links-container {
   position: absolute;
-  right: 5%;
-  padding: 20px 0;
+  right: 1%;
 }
 
-.top-links-container a{
+.top-links-container a {
   font-family: Arial;
+  font-size: 10pt;
   color: black;
   text-decoration: none;
-  margin: 0 15px 0 15px;
+  margin: 0 12px 0 0;
+}
+
+.top-links-container a:hover {
+  text-decoration: underline;
+}
+
+.top-links-words {
+  float: left;
+  padding: 12px 0 15px 0;
+}
+
+.top-links-images {
+  float: right;
+  padding: 2px 0 5px 0;
+}
+
+.top-links-container img {
+  position: relative;
+  height: 42px;
 }
 
 .google-logo{
   margin: auto;
-  padding: 130px 0 30px 0;
+  padding: 145px 0 30px 0;
   width: 270px;
 }
 
